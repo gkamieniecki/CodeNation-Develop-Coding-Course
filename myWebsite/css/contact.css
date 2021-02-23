@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+}
+
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #303131;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: skyblue
+}
+
+.row {
+    display: flex;
+    /* border: 10px solid green; */
+}
+  
+.column {
+    flex: 50%;
+}
+
+.largeimg {
+    display: flex;
+    justify-content: center;
+}
+
+.large {
+    /* border: 8px solid orange; */
+    height: 800px;
+    max-width: 100%;
+    border-bottom: 40px solid #ebebeb;
+    
+}     
+
+.acgimg {
+    /* border: 8px solid rgb(24, 143, 0); */
+    display: flex;
+    justify-content: center;
+}
+
+.nikeacg {
+    /* border: 8px solid orange; */
+    margin-top: 14%;
+    max-height: 330px;
+    max-width: 75%;
+}     
+
+.contact_form {
+    display: flex;
+    justify-content: center;
+}
+
+/* contact form */
+
+#page-wrap {
+    display: flex;
+    justify-content: center;
+	width: 660px;
+	/* min-height: 500px; */
+	height: auto !important;
+	height: 500px;
+    margin-top: 10%;
+}
+
+#contact-area {
+	width: 600px;
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: "Montserrat", sans-serif;
+    color: #303131;
+	font-size: 16px;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid skyblue;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+}
+
+.submit-button {
+    background-color: #ebebeb;
+}
+
+.submit-button:hover {
+    background-color: skyblue;
+}
+
+.submit-button:active {
+    background-color: rgb(22, 161, 216);
+    transform: translateY(4px);
+}
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+    font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+    color: #303131;
+}
+

@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+}
+
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #303131;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: skyblue
+}
+
+
+.mainphotosection {
+    height: 90vh;
+    border-bottom: 40px solid #ebebeb;
+    display: flex;
+    justify-content: center;
+}
+
+.mainphoto {
+    /* border: 8px solid orange; */
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.categories_text {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #303131;
+    text-decoration: none;
+    margin: 5%;
+}
+
+.categories_header {
+    padding-bottom: 5%;
+}
+
+
+.row {
+    /* border: 15px solid rgb(128, 49, 49); */
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    /* border:12px solid rgb(56, 212, 212) */
+}  
+
+.outerwear_header {
+    padding-bottom: 5%;
+}
+
+.outerwear_text {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #303131;
+    text-decoration: none;
+    margin: 15%;
+}
+
+.jacketimg {
+    display: flex;
+    justify-content: center;
+}
+
+.alpine {
+    /* border: 8px solid orange; */
+    height: 600px;
+    max-width: 100%;
+}     
+
+.midlayer_header {
+    padding-bottom: 5%;
+}
+
+.midlayer_text {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #303131;
+    text-decoration: none;
+    margin: 15%;
+}
+
+.midlayerimg {
+    display: flex;
+    justify-content: center;
+}
+
+.denali {
+    /* border: 8px solid orange; */
+    height: 600px;
+    max-width: 100%;
+}     
+
+.baselayer_header {
+    padding-bottom: 5%;
+}
+
+.baselayer_text {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #303131;
+    text-decoration: none;
+    margin: 15%;
+}
+
+.baselayerimg {
+    display: flex;
+    justify-content: center;
+}
+
+.uniqlo {
+    /* border: 8px solid orange; */
+    max-height: 420px;
+    max-width: 90%;
+}     
+
+.pants_header {
+    padding-bottom: 5%;
+}
+
+.pants_text {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #303131;
+    text-decoration: none;
+    margin: 15%;
+}
+
+.pantsimg {
+    display: flex;
+    justify-content: center;
+}
+
+.pants {
+    /* border: 8px solid orange; */
+    max-height: 420px;
+    max-width: 90%;
+}     
+
+.footwear_header {
+    padding-bottom: 5%;
+}
+
+.footwear_text {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #303131;
+    text-decoration: none;
+    margin: 15%;
+}
+
+.footwearimg {
+    display: flex;
+    justify-content: center;
+}
+
+.shoes {
+    /* border: 8px solid orange; */
+    margin-top: 10%;
+    max-height: 420px;
+    max-width: 90%;
+}     
+
+.accessories_header {
+    padding-bottom: 5%;
+}
+
+.accessories_text {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #303131;
+    text-decoration: none;
+    margin: 15%;
+}
+
+.accessoriesimg {
+    display: flex;
+    justify-content: center;
+}
+
+.orbit {
+    border-bottom: 40px solid #ebebeb;
+    margin-top: 10%;
+    max-height: 420px;
+    max-width: 90%;
+}     
